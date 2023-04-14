@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-image: url(https://tse4.mm.bing.net/th?id=OIP.qcZbhQkP9AyxQSZlIFv27gHaEo&pid=Api&P=0);
+    background-size: cover; */
+}
+.box1{
+    height: 730px;
+    width: 100%;
+    background-color: #1e64cb;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.qcZbhQkP9AyxQSZlIFv27gHaEo&pid=Api&P=0);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box h1{
+    color : white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#password,#username{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    width: 220px;
+    padding: 14px 10px;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    transition: 0.25px;
+}
+#password:focus,#username:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+#submit{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    transition: 0.25px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+#submit:focus{
+    border-color: #ffc400ec;
+}
+.div{
+    background-color: blue;
+    height: 300px;
+    width:400px;
+}
